@@ -6,6 +6,8 @@ import {
   UpdateDateColumn,
 } from 'typeorm';
 
+// KISS - Keep it Simple & Stupid
+
 @Entity('users')
 class User {
   @PrimaryGeneratedColumn('uuid')
@@ -16,6 +18,12 @@ class User {
 
   @Column()
   password: string;
+
+  @Column()
+  avatar: string;
+
+  @Column()
+  email: string;
 
   @CreateDateColumn()
   created_at: Date;

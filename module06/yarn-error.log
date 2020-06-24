@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add reflect-meta-data
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add -D @types/bcriptjs
 
 PATH: 
-  C:\Program Files\PowerShell\7;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Python27\;C:\Python27\Scripts;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PowerShell\7\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\sidle\AppData\Local\Android\Sdk\emulator;C:\Users\sidle\AppData\Local\Android\Sdk\tools;C:\Users\sidle\AppData\Local\Android\Sdk\tools\bin;C:\Users\sidle\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\sidle\AppData\Local\Microsoft\WindowsApps;C:\Users\sidle\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sidle\AppData\Roaming\npm;C:\Users\sidle\AppData\Local\Yarn\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;
+  C:\Program Files\PowerShell\7;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Python27\;C:\Python27\Scripts;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\sidle\AppData\Local\Android\Sdk\emulator;C:\Users\sidle\AppData\Local\Android\Sdk\tools;C:\Users\sidle\AppData\Local\Android\Sdk\tools\bin;C:\Users\sidle\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\sidle\AppData\Local\Microsoft\WindowsApps;C:\Users\sidle\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sidle\AppData\Roaming\npm;C:\Users\sidle\AppData\Local\Yarn\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PowerShell\7\;
 
 Yarn version: 
   1.22.4
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/reflect-meta-data: Not found
+  Error: https://registry.yarnpkg.com/@types%2fbcriptjs: Not found
       at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66096:18)
       at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140748:22)
       at Request.emit (events.js:315:20)
@@ -52,9 +52,11 @@ npm manifest:
     },
     "dependencies": {
       "@typescript-eslint/parser": "^3.0.2",
+      "bcryptjs": "^2.4.3",
       "date-fns": "^2.14.0",
       "express": "^4.17.1",
       "pg": "^8.2.1",
+      "reflect-metadata": "^0.1.13",
       "typeorm": "^0.2.25",
       "uuidv4": "^6.1.0"
     }
@@ -358,6 +360,11 @@ Lockfile:
     version "1.3.1"
     resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.3.1.tgz#58ece8cb75dd07e71ed08c736abc5fac4dbf8df1"
     integrity sha512-mLQ4i2QO1ytvGWFWmcngKO//JXAQueZvwEKtjgQFM4jIK0kU+ytMfplL8j+n5mspOfjHwoAg+9yhb7BwAHm36g==
+  
+  bcryptjs@^2.4.3:
+    version "2.4.3"
+    resolved "https://registry.yarnpkg.com/bcryptjs/-/bcryptjs-2.4.3.tgz#9ab5627b93e60621ff7cdac5da9733027df1d0cb"
+    integrity sha1-mrVie5PmBiH/fNrF2pczAn3x0Ms=
   
   body-parser@1.19.0:
     version "1.19.0"
