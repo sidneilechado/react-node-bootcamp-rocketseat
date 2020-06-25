@@ -37,6 +37,7 @@ More specific info about how to run or test every branch is on their README.
 ### Links
 
 `<LinkedIn>` : <https://www.linkedin.com/in/sidnei-lechado/>
+
 `<Rocketseat>` : <https://rocketseat.com.br/>
 
 ### License
