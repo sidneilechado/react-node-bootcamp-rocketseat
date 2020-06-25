@@ -4,7 +4,7 @@ This repository is for a Bootcamp I did at Rocketseat, it focuses on Node.JS and
 
 -------------
 
-###Current branches
+### Current branches
                 
 				Backend with NodeJS
 				Frontend with ReactJS
@@ -14,7 +14,7 @@ This repository is for a Bootcamp I did at Rocketseat, it focuses on Node.JS and
 				Starting app backend
 ----
 
-###Starting
+### Starting
 If you want to clone this repository, you can either clone all the branches with the traditional git clone:
 ```sh
 $ git clone https://github.com/sidlechado/bootcamp-rocketseat.git
@@ -26,7 +26,7 @@ $ git clone -b branchName https://github.com/sidlechado/bootcamp-rocketseat.git
 ```
 More specific info about how to run or test every branch is on their README.
 
-###Technologies
+### Technologies
 
 * React
 * React Native
@@ -34,12 +34,12 @@ More specific info about how to run or test every branch is on their README.
 * Express
 * Docker
 
-###Links
+### Links
 
 `<LinkedIn>` : <https://www.linkedin.com/in/sidnei-lechado/>
 `<Rocketseat>` : <https://rocketseat.com.br/>
 
-###License
+### License
 MIT
 
-###End
+### End
