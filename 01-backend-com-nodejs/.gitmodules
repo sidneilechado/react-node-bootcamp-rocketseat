@@ -1,0 +1,6 @@
+[submodule "module001-challenge"]
+	path = module001-challenge
+	url = https://github.com/Rocketseat/gostack-template-conceitos-nodejs
+[submodule "module01-challenge"]
+	path = module01-challenge
+	url = https://github.com/Rocketseat/gostack-template-conceitos-nodejs
