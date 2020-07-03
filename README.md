@@ -12,6 +12,7 @@ This repository is for a Bootcamp I did at Rocketseat, it focuses on Node.JS and
 				Typescript
 				First project with NodeJs
 				Starting app backend
+				First project with ReactJS
 ----
 
 ### Starting
