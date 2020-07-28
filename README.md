@@ -1,47 +1,24 @@
-### Introduction
+# Rocketseat Bootcamp
 
-This repository is for a Bootcamp I did at Rocketseat, it focuses on Node.JS and React (Native included). It is divided on modules, in which, every module is a Branch in this repository, more info about which technology is being focused are on the specific branches, down this README, you will find a list of all the technologies that are present in all the branches.
+This repo holds all code created for RocketSeat's Bootcamp version 11. Through this bootcamp we'll have a full grasp of the foundations of a FullStack app with Node (backend), React (frontend) and React Native (mobile). Besides these core technologies, a lot of extra tech is taught and they're explained in each sub-repository.
 
--------------
-
-### Current branches
-                
-				Backend with NodeJS
-				Frontend with ReactJS
-				Mobile with React Native
-				Typescript
-				First project with NodeJs
-				Starting app backend
-				First project with ReactJS
-----
-
-### Starting
-If you want to clone this repository, you can either clone all the branches with the traditional git clone:
-```sh
-$ git clone https://github.com/sidlechado/bootcamp-rocketseat.git
-```
-
-or if you want to clone a specific branch
-```sh
-$ git clone -b branchName https://github.com/sidlechado/bootcamp-rocketseat.git
-```
-More specific info about how to run or test every branch is on their README.
-
-### Technologies
-
-* React
-* React Native
-* Node.JS
-* Express
-* Docker
-
-### Links
-
-`<LinkedIn>` : <https://www.linkedin.com/in/sidnei-lechado/>
-
-`<Rocketseat>` : <https://rocketseat.com.br/>
-
-### License
-MIT
-
-### End
+- Level #1: Stack fundamentals
+  - [Nodejs concepts](level1/backend)
+  - [Reactjs concepts](level1/frontend)
+  - [React Native concepts](level1/mobile)
+  - [Typescript](level1/typescript)
+- Level #2: Nodejs
+  - [Backend fundamentals](level2/backend-fundamentals)
+  - [Backend GoBarber](level2/backend-gobarber)
+- Level #3: Reactjs & React Native
+  - [Frontend fundamentals](level3/frontend-fundamentals)
+  - [Frontend GoBarber](level3/frontend-gobarber)
+  - [Mobile GoBarber](level3/mobile-gobarber)
+- Level #4: Architecture/tests with Nodejs
+  - [Backend architecture/tests](level4/backend-tests)
+  - [GoBarber backend continuation](level4/backend-gobarber-continuation)
+  - [GoBarber backend finalization](level4/backend-gobarber-finalize)
+- Level #5: Reactjs & React Native: Finalization
+  - [GoBarber frontend finalization](level5/frontend-gobarber-finalize)
+  - [GoBarber mobile finalization](level5/mobile-gobarber-finalize)
+  - [React tests](level5/react-tests)
